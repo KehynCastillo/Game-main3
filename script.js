@@ -124,6 +124,7 @@ const startGame = () => {
     drawWord();
     document.addEventListener('keydown', letterEvent);
 };
+copyRight.style.display = 'block';
 restartButton.style.display = 'none';
 restartButton.addEventListener('click', startGame);
 startButton.addEventListener('click', startGame);
