@@ -118,6 +118,7 @@ const startGame = () => {
     usedLettersElement.innerHTML = '';
     startButton.style.display = 'none';
     restartButton.style.display = 'none';
+    copyRight.style.display = 'none';
     drawHangMan();
     selectRandomWord();
     drawWord();
