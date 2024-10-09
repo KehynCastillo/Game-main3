@@ -12,6 +12,12 @@ body {
     align-items: center;
 }
 
+h2 {
+    color: black;
+    font-family: 'SF Pixelate', sans-serif;
+    
+}
+
 #wordContainer {
     margin-top: 20px;
 }
